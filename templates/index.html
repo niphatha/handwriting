@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hand Written Recognition</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+    <style>
+        .bg{
+            background: url(https://images.pexels.com/photos/1419920/pexels-photo-1419920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+ 
+    <body class="bg">
+        <div class="jumbotron text-center" style="background-color: #FFEBCD;">
+            <h1 style="color: #000000;">Hand Written Recognition</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <form action="/upload" method="post" class="form-inline" enctype="multipart/form-data">
+                        <div class="form-group" style="margin-top: 50px;">
+                            <input type="file" style="width:450px; height:50px; font-size: 30px; margin-right: 30px;" class="form-control" name="pic" accept="image/*">
+                            <button type="submit" class="btn btn-default" style="width:150px; height:50px; font-size: 30px;">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <div style="position: absolute; top: 30px; left: 50px;">
+        <image src="https://uppic.cc/d/5cxM"/>
+    </div>
+</html>
